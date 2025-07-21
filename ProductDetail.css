@@ -1,0 +1,14 @@
+.product-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+.detail-img {
+  width: 100%;
+  max-width: 400px;
+  object-fit: cover;
+}
+.detail-info {
+  text-align: center;
+}

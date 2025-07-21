@@ -1,0 +1,35 @@
+.header {
+  background: linear-gradient(135deg, #ff6a00, #ee0979);
+  padding: 1rem 2rem;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+.cart-link {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 600;
+  background: rgba(255,255,255,0.2);
+  padding: 0.5rem 1.2rem;
+  border-radius: 50px;
+  transition: background 0.3s, transform 0.2s;
+}
+.cart-link:hover {
+  background: rgba(255,255,255,0.35);
+  transform: scale(1.05);
+}
